@@ -2,6 +2,12 @@
 
 A fine-tuned Gemma 3N model specialized for conducting trauma assessments with children from conflict zones, supporting multilingual conversations and generating professional psychological reports.
 
+## Model Availability
+
+The fine-tuned model is available on Hugging Face:
+- Model: [SoufianeDahimi/child_trauma_gemma_finetune](https://huggingface.co/SoufianeDahimi/child_trauma_gemma_finetune)
+- GGUF format: [SoufianeDahimi/child_trauma_assessment_gemma-GGUF](https://huggingface.co/SoufianeDahimi/child_trauma_assessment_gemma-GGUF)
+
 ## Overview
 
 This repository contains the training pipeline for fine-tuning Gemma 3N to:
