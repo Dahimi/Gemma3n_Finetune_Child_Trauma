@@ -109,7 +109,7 @@ from unsloth import FastModel
 
 # Load model
 model, tokenizer = FastModel.from_pretrained(
-    "your-model-path",
+    "SoufianeDahimi/child_trauma_gemma_finetune",
     max_seq_length = 2048,
     load_in_4bit = True,
 )
@@ -174,5 +174,5 @@ This model integrates with the other components of the project (the web platform
 
 - Python 3.8+
 - CUDA-capable GPU (recommended)
-- 16GB+ RAM for training
+- 16GB+ RAM
 - HuggingFace transformers, unsloth, datasets
